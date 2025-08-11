@@ -1,0 +1,22 @@
+:root {
+  --dashboard-color: blue;
+  --header-color: red;
+  --aside-color: yellow;
+}
+
+.container {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+.dashboard {
+  background-color: var(--dashboard-color);
+  grid-row: 1/3;
+}
+.header {
+  background-color: var(--header-color);
+  grid-column: 2/4;
+}
+.aside {
+  background-color: var(--aside-color);
+  grid-column: 2/4;
+}
