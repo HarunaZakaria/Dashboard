@@ -48,6 +48,8 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  background: white;
+  padding: 30px;
 }
 
 .search-bar {
@@ -116,15 +118,17 @@
 }
 
 .rightbar {
-  padding: 20px;
   background: #f9f9f9;
+  margin-top: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .announcements,
 .trending {
   background: white;
-  padding: 15px;
   border-radius: 8px;
+  padding: 20px;
+
   margin-bottom: 20px;
 }
 
