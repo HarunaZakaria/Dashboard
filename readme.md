@@ -1,1 +1,1 @@
-SuperMarket is a destop app thaat is developed using php, html, css, and mysql
+Dashboard created as part of The Odin Projects assignment
