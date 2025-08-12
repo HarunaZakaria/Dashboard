@@ -3,14 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
+    <title>Responsive Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="dashboard">one</div>
-      <div class="header">two</div>
-      <div class="aside">three</div>
+    <div class="dashboard">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2><i class="fa-solid fa-table-cells-large"></i> Dashboard</h2>
+        <nav>
+          <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+          <a href="#"><i class="fa-solid fa-user"></i> Profile</a>
+          <a href="#"><i class="fa-solid fa-envelope"></i> Messages</a>
+          <a href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a>
+          <a href="#"><i class="fa-solid fa-list-check"></i> Tasks</a>
+          <a href="#"><i class="fa-solid fa-users"></i> Communities</a>
+          <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+          <a href="#"><i class="fa-solid fa-circle-question"></i> Support</a>
+          <a href="#"><i class="fa-solid fa-shield"></i> Privacy</a>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main">
+        <!-- Topbar -->
+        <header class="topbar">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search..." />
+          </div>
+          <div class="actions">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+            <i class="fa-regular fa-bell"></i>
+            <div class="user-profile">
+              <img src="https://via.placeholder.com/35" alt="User" />
+              <span>Morgan Oakley</span>
+            </div>
+          </div>
+        </header>
+
+        <!-- Projects -->
+        <section class="projects">
+          <h3>Your Projects</h3>
+          <div class="project-grid">
+            <div class="card highlight">
+              <h4>Super Cool Project</h4>
+              <p>Sed tempus ut lacus ut scelerisque...</p>
+            </div>
+            <div class="card highlight">
+              <h4>Less Cool Project</h4>
+              <p>Nullam condimentum ipsum ut lectus...</p>
+            </div>
+            <div class="card">
+              <h4>Impossible App</h4>
+              <p>In hac habitasse platea dictumst...</p>
+            </div>
+            <div class="card highlight">
+              <h4>Easy Peasy App</h4>
+              <p>Etiam cursus eros ac efficitur...</p>
+            </div>
+            <div class="card">
+              <h4>Ad Blocker</h4>
+              <p>Quisque eget rutrum nisl. Nam augue...</p>
+            </div>
+            <div class="card">
+              <h4>Money Maker</h4>
+              <p>Praesent convallis, libero quis...</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Right Sidebar -->
+      <aside class="rightbar">
+        <div class="announcements">
+          <h4>Announcements</h4>
+          <p><b>Site Maintenance</b> - Vestibulum condimentum...</p>
+          <p><b>Community Share Day</b> - Nam vel lectus...</p>
+          <p><b>Updated Privacy Policy</b> - Phasellus efficitur...</p>
+        </div>
+        <div class="trending">
+          <h4>Trending</h4>
+          <p>@tegan - World Peace Builder</p>
+          <p>@morgan - Super Cool Project</p>
+          <p>@kendall - Life Changing App</p>
+          <p>@alex - No Traffic Maker</p>
+        </div>
+      </aside>
     </div>
   </body>
 </html>
